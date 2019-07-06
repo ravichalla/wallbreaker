@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee93a516-da6d-4f2c-b155-6439712a13f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/week2/find_difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/first_unique_char_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2/first_unique_char_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/subdomain_visit_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2/subdomain_visit_count.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subdomain_visit_count.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subdomain_visit_count.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2/subdomain_visit_count.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_difference.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week2/find_difference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -111,6 +119,7 @@
         <option value="$PROJECT_DIR$/week2/all_anagrams_string.py" />
         <option value="$PROJECT_DIR$/week2/first_unique_char_string.py" />
         <option value="$PROJECT_DIR$/week2/subdomain_visit_count.py" />
+        <option value="$PROJECT_DIR$/week2/find_difference.py" />
       </list>
     </option>
   </component>
@@ -142,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.subdomain_visit_count">
+  <component name="RunManager" selected="Python.find_difference">
     <configuration name="all_anagrams_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wallbreaker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +188,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="find_difference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wallbreaker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week2/find_difference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="first_unique_char_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wallbreaker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,24 +219,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week2/first_unique_char_string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="isomorphic_strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wallbreaker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week2/isomorphic_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,19 +243,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.isomorphic_strings" />
       <item itemvalue="Python.design_hashmap" />
       <item itemvalue="Python.all_anagrams_string" />
       <item itemvalue="Python.first_unique_char_string" />
       <item itemvalue="Python.subdomain_visit_count" />
+      <item itemvalue="Python.find_difference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_difference" />
         <item itemvalue="Python.subdomain_visit_count" />
         <item itemvalue="Python.first_unique_char_string" />
         <item itemvalue="Python.all_anagrams_string" />
         <item itemvalue="Python.design_hashmap" />
-        <item itemvalue="Python.isomorphic_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -577,6 +586,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/find_difference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
