@@ -8,15 +8,21 @@ def topKFrequent(nums, k):
     :type k: int
     :rtype: List[int]
     """
-    d, h = [(freq, num) for num, freq in Counter(nums).items()], []
-    print("d", d)
-    for i in range(k):
-        heapq.heappush(h, d[i]) #heappush(heap, ele)
-    for i in range(k, len(d)): # range([start], stop[, step])
-        if d[i][0] > h[0][0]:
-            heapq.heappop(h) # remove and return smallest ele from heap
-            heapq.heappush(h, d[i])
-    print([heapq.heappop(h)[1] for _ in range(k)][::])
-    return [heapq.heappop(h)[1] for _ in range(k)][::-1]
+    heap = []
+    result = []
+    myDict = Counter(nums)
+    for key in myDict:
+        temp = (myDict[key] , key)
+        if len(heap) >= k:
+            heapq.heappushpop(heap, temp)
+        else:
+            heapq.heappush(heap, temp)
+        print(heap)
+    for i in range(len(heap)):
+        result.append(heapq.heappop(heap)[1])
+    #print(heapq.heappop(heap))
+    print(result,"result")
+    return result[::-1]
 
-print(topKFrequent([1,1,1,2,2,3],2))
+
+print(topKFrequent([1,1,1,1,2,2,3,3],2))
